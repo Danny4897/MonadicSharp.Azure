@@ -4,11 +4,13 @@
     <Project Path="src/MonadicSharp.Azure.CosmosDb/MonadicSharp.Azure.CosmosDb.csproj" />
     <Project Path="src/MonadicSharp.Azure.Functions/MonadicSharp.Azure.Functions.csproj" />
     <Project Path="src/MonadicSharp.Azure.Messaging/MonadicSharp.Azure.Messaging.csproj" />
+    <Project Path="src/MonadicSharp.Azure.Storage/MonadicSharp.Azure.Storage.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/MonadicSharp.Azure.Core.Tests/MonadicSharp.Azure.Core.Tests.csproj" />
     <Project Path="tests/MonadicSharp.Azure.CosmosDb.Tests/MonadicSharp.Azure.CosmosDb.Tests.csproj" />
     <Project Path="tests/MonadicSharp.Azure.Functions.Tests/MonadicSharp.Azure.Functions.Tests.csproj" />
     <Project Path="tests/MonadicSharp.Azure.Messaging.Tests/MonadicSharp.Azure.Messaging.Tests.csproj" />
+    <Project Path="tests/MonadicSharp.Azure.Storage.Tests/MonadicSharp.Azure.Storage.Tests.csproj" />
   </Folder>
 </Solution>
