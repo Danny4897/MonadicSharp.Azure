@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MonadicSharp.Azure.Core</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Danny4897</Authors>
+    <Description>Azure Core integration for MonadicSharp — HTTP status mapping, ProblemDetails, and shared abstractions for the MonadicSharp.Azure.* family.</Description>
+    <PackageTags>functional-programming;result;railway-oriented-programming;azure;error-handling</PackageTags>
+    <PackageProjectUrl>https://github.com/Danny4897/MonadicSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Danny4897/MonadicSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonadicSharp" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>

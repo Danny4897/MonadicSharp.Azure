@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MonadicSharp.Azure.Core/MonadicSharp.Azure.Core.csproj" />
+    <Project Path="src/MonadicSharp.Azure.CosmosDb/MonadicSharp.Azure.CosmosDb.csproj" />
+    <Project Path="src/MonadicSharp.Azure.Functions/MonadicSharp.Azure.Functions.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MonadicSharp.Azure.Core.Tests/MonadicSharp.Azure.Core.Tests.csproj" />
+    <Project Path="tests/MonadicSharp.Azure.CosmosDb.Tests/MonadicSharp.Azure.CosmosDb.Tests.csproj" />
+    <Project Path="tests/MonadicSharp.Azure.Functions.Tests/MonadicSharp.Azure.Functions.Tests.csproj" />
+  </Folder>
+</Solution>

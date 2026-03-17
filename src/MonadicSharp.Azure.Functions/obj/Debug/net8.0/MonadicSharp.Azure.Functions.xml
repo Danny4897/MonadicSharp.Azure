@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MonadicSharp.Azure.Functions</name>
+    </assembly>
+    <members>
+        <member name="T:MonadicSharp.Azure.Functions.HttpRequestDataExtensions">
+            <summary>
+            Extension methods for deserializing Azure Functions HTTP request bodies
+            into <see cref="T:MonadicSharp.Result`1"/> values.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpRequestDataExtensions.ReadFromJsonAsync``1(Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            Reads and deserializes the request body as <typeparamref name="T"/>.
+            Returns <c>Result.Failure</c> if the body is empty or cannot be deserialized.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpRequestDataExtensions.ReadAndValidateAsync``1(Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Func{``0,MonadicSharp.Result{``0}},System.Text.Json.JsonSerializerOptions)">
+            <summary>
+            Reads and deserializes the request body, then applies <paramref name="validate"/>
+            to the deserialized value. Combines deserialization and domain validation in one step.
+            </summary>
+        </member>
+        <member name="T:MonadicSharp.Azure.Functions.HttpResponseDataExtensions">
+            <summary>
+            Extension methods for converting <see cref="T:MonadicSharp.Result`1"/> to Azure Functions
+            <see cref="T:Microsoft.Azure.Functions.Worker.Http.HttpResponseData"/>, with automatic error-to-HTTP-status mapping.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpResponseDataExtensions.ToHttpResponseAsync``1(System.Threading.Tasks.Task{MonadicSharp.Result{``0}},Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Net.HttpStatusCode)">
+            <summary>
+            Awaits the result and writes an HTTP response.
+            Success → <paramref name="successStatus"/> with the value serialized as JSON.
+            Failure → mapped HTTP status with a <see cref="T:MonadicSharp.Azure.Core.MonadicProblemDetails"/> body.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpResponseDataExtensions.ToHttpResponseAsync``1(MonadicSharp.Result{``0},Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Net.HttpStatusCode)">
+            <summary>
+            Writes an HTTP response from a <see cref="T:MonadicSharp.Result`1"/>.
+            Success → <paramref name="successStatus"/> with the value serialized as JSON.
+            Failure → mapped HTTP status with a <see cref="T:MonadicSharp.Azure.Core.MonadicProblemDetails"/> body.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpResponseDataExtensions.ToHttpResponseAsync(System.Threading.Tasks.Task{MonadicSharp.Result{MonadicSharp.Unit}},Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Net.HttpStatusCode)">
+            <summary>
+            Awaits and writes an HTTP response for <c>Result&lt;Unit&gt;</c> (command operations).
+            Success → 204 No Content.
+            Failure → mapped HTTP status with a <see cref="T:MonadicSharp.Azure.Core.MonadicProblemDetails"/> body.
+            </summary>
+        </member>
+        <member name="M:MonadicSharp.Azure.Functions.HttpResponseDataExtensions.ToCreatedResponseAsync``1(System.Threading.Tasks.Task{MonadicSharp.Result{``0}},Microsoft.Azure.Functions.Worker.Http.HttpRequestData,System.Func{``0,System.String})">
+            <summary>
+            Creates a 201 Created response with the value and an optional Location header.
+            </summary>
+        </member>
+    </members>
+</doc>
