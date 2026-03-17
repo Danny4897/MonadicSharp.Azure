@@ -6,6 +6,7 @@
     <Project Path="src/MonadicSharp.Azure.Messaging/MonadicSharp.Azure.Messaging.csproj" />
     <Project Path="src/MonadicSharp.Azure.Storage/MonadicSharp.Azure.Storage.csproj" />
     <Project Path="src/MonadicSharp.Azure.KeyVault/MonadicSharp.Azure.KeyVault.csproj" />
+    <Project Path="src/MonadicSharp.Azure.OpenAI/MonadicSharp.Azure.OpenAI.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/MonadicSharp.Azure.Core.Tests/MonadicSharp.Azure.Core.Tests.csproj" />
@@ -14,5 +15,6 @@
     <Project Path="tests/MonadicSharp.Azure.Messaging.Tests/MonadicSharp.Azure.Messaging.Tests.csproj" />
     <Project Path="tests/MonadicSharp.Azure.Storage.Tests/MonadicSharp.Azure.Storage.Tests.csproj" />
     <Project Path="tests/MonadicSharp.Azure.KeyVault.Tests/MonadicSharp.Azure.KeyVault.Tests.csproj" />
+    <Project Path="tests/MonadicSharp.Azure.OpenAI.Tests/MonadicSharp.Azure.OpenAI.Tests.csproj" />
   </Folder>
 </Solution>
