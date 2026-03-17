@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MonadicSharp.Azure.KeyVault</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Danny4897</Authors>
+    <Description>Azure Key Vault integration for MonadicSharp — retrieve, set and delete secrets as Result&lt;T&gt; and Option&lt;T&gt; for Railway-Oriented Programming pipelines.</Description>
+    <PackageTags>functional-programming;result;railway-oriented-programming;azure;key-vault;secrets;error-handling</PackageTags>
+    <PackageProjectUrl>https://github.com/Danny4897/MonadicSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Danny4897/MonadicSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.7.0" />
+    <ProjectReference Include="..\MonadicSharp.Azure.Core\MonadicSharp.Azure.Core.csproj" />
+  </ItemGroup>
+
+</Project>
