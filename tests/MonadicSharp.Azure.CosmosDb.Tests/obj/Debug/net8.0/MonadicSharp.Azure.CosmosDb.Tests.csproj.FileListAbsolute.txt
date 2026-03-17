@@ -149,3 +149,4 @@ C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.CosmosDb
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.CosmosDb.Tests\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.Tests.pdb
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.CosmosDb.Tests\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.Tests.genruntimeconfig.cache
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.CosmosDb.Tests\obj\Debug\net8.0\ref\MonadicSharp.Azure.CosmosDb.Tests.dll
+C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.CosmosDb.Tests\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.Tests.sourcelink.json

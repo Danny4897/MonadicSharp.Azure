@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Azure Core integration for MonadicSharp — HTTP status mapping, ProblemDetails, an" +
     "d shared abstractions for the MonadicSharp.Azure.* family."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63a36fee25e314c18a3275af053f527ac63c56d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonadicSharp.Azure.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonadicSharp.Azure.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -159,3 +159,4 @@ C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.Function
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.Functions.Tests\obj\Debug\net8.0\MonadicSharp.Azure.Functions.Tests.pdb
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.Functions.Tests\obj\Debug\net8.0\MonadicSharp.Azure.Functions.Tests.genruntimeconfig.cache
 C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.Functions.Tests\obj\Debug\net8.0\ref\MonadicSharp.Azure.Functions.Tests.dll
+C:\Users\adani\source\repos\MonadicSharp.Azure\tests\MonadicSharp.Azure.Functions.Tests\obj\Debug\net8.0\MonadicSharp.Azure.Functions.Tests.sourcelink.json

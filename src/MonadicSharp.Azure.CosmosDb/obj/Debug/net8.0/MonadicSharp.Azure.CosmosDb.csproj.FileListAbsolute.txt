@@ -21,3 +21,4 @@ C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.CosmosDb\o
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.CosmosDb\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.xml
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.CosmosDb\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.pdb
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.CosmosDb\obj\Debug\net8.0\ref\MonadicSharp.Azure.CosmosDb.dll
+C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.CosmosDb\obj\Debug\net8.0\MonadicSharp.Azure.CosmosDb.sourcelink.json

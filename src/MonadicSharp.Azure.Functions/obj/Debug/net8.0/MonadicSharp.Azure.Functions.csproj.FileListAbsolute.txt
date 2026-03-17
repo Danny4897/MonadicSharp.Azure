@@ -16,3 +16,4 @@ C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Functions\
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Functions\obj\Debug\net8.0\MonadicSharp.Azure.Functions.xml
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Functions\obj\Debug\net8.0\MonadicSharp.Azure.Functions.pdb
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Functions\obj\Debug\net8.0\ref\MonadicSharp.Azure.Functions.dll
+C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Functions\obj\Debug\net8.0\MonadicSharp.Azure.Functions.sourcelink.json

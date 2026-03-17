@@ -16,7 +16,7 @@ using System.Reflection;
     "uests and return Result<T> responses with automatic error-to-status-code mapping" +
     "."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63a36fee25e314c18a3275af053f527ac63c56d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonadicSharp.Azure.Functions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonadicSharp.Azure.Functions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

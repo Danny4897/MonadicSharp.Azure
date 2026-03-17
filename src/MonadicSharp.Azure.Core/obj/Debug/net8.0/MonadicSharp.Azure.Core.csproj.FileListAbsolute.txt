@@ -12,3 +12,4 @@ C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Core\obj\D
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Core\obj\Debug\net8.0\MonadicSharp.Azure.Core.xml
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Core\obj\Debug\net8.0\MonadicSharp.Azure.Core.pdb
 C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Core\obj\Debug\net8.0\ref\MonadicSharp.Azure.Core.dll
+C:\Users\adani\source\repos\MonadicSharp.Azure\src\MonadicSharp.Azure.Core\obj\Debug\net8.0\MonadicSharp.Azure.Core.sourcelink.json
