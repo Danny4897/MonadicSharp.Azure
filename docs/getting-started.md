@@ -1,5 +1,8 @@
 # Getting Started
 
+[![NuGet](https://img.shields.io/nuget/v/MonadicSharp.Azure.svg?style=flat-square)](https://www.nuget.org/packages/MonadicSharp.Azure/) [![NuGet Downloads](https://img.shields.io/nuget/dt/MonadicSharp.Azure.svg?style=flat-square)](https://www.nuget.org/packages/MonadicSharp.Azure/)
+
+
 MonadicSharp.Azure wraps the Azure SDK in Railway-Oriented Programming patterns — every call returns `Result<T>` or `Option<T>`, never throws.
 
 ## Install
