@@ -19,3 +19,5 @@ obj/
 # OS
 .DS_Store
 Thumbs.db
+docs/node_modules/
+docs/.vitepress/dist/
