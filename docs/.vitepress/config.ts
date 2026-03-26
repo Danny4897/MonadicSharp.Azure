@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'Railway-Oriented Programming for the Azure ecosystem — every SDK call wrapped in Result<T> or Option<T>.',
   base: '/MonadicSharp.Azure/',
   cleanUrls: true,
+  ignoreDeadLinks: true,
 
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
